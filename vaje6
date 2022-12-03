@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir /home/ida123/desktop
-mkdir /home/id123/downloads
+mkdir /home/ida123/downloads
 mkdir /home/ida123/pictures
 mkdir /home/ida123/videos
 mkdir /home/ida123/documents
