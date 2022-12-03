@@ -1,21 +1,22 @@
 #!/bin/bash
 
-sudo mkdir desktop
-sudo mkdir downloads
-sudo mkdir pictures
-sudo mkdir videos
-sudo mkdir documents
+mkdir /home/osboxes/desktop
+mkdir /home/osboxes/downloads
+mkdir /home/osboxes/pictures
+mkdir /home/osboxes/videos
+mkdir /home/osboxes/documents
+
 for i in {i..5)
 do 
 mkdir folder$i
 done
-sudo adduser user1
-sudo adduser user1 sudo
-sudo adduser user2
-sudo adduser user2 sudo 
-sudo adduser user3
-sudo adduser user3 sudo
-sudo adduser user4
-sudo adduser user4 sudo
-sudo adduser user5
-sudo adduser user5 sudo
+
+readarray -t a <users.txt
+
+for i in "${a[@]}"
+do
+sudo adduser "$i"
+sudo usermod -aG sudo "$i"
+done
+
+
