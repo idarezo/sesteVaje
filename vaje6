@@ -6,7 +6,7 @@ mkdir /home/osboxes/pictures
 mkdir /home/osboxes/videos
 mkdir /home/osboxes/documents
 
-for i in {i..5)
+for i in {1..5}
 do 
 mkdir folder$i
 done
