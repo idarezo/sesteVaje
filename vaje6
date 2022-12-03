@@ -5,12 +5,10 @@ sudo mkdir downloads
 sudo mkdir pictures
 sudo mkdir videos
 sudo mkdir documents
-
 for i in {i..5)
 do 
 mkdir folder$i
 done
-
 sudo adduser user1
 sudo adduser user1 sudo
 sudo adduser user2
