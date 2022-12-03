@@ -1,14 +1,14 @@
 #!/bin/bash
 
-mkdir /home/osboxes/desktop
-mkdir /home/osboxes/downloads
-mkdir /home/osboxes/pictures
-mkdir /home/osboxes/videos
-mkdir /home/osboxes/documents
+mkdir /home/ida123/desktop
+mkdir /home/id123/downloads
+mkdir /home/ida123/pictures
+mkdir /home/ida123/videos
+mkdir /home/ida123/documents
 
 for i in {1..5}
 do 
-mkdir folder$i
+mkdir /home/ida123/desktopfolder$i
 done
 
 readarray -t a <users.txt
