@@ -15,8 +15,9 @@ do
 sudo adduser "$i"
 sudo usermod -aG sudo "$i"
 done
-sudo apt-get update -y
-sudo apt-get install -y net-tools
+sudo apt-get update 
+sudo apt-get upgrade
+sudo apt-get install net-tools
 sudo apt install nginx
 
 sudo apt-get update
