@@ -17,8 +17,8 @@ sudo usermod -aG sudo "$i"
 done
 sudo apt-get update -y
 sudo apt-get install -y net-tools
-sudo apt install nginx
-sudo apt-get update
+sudo apt install nginx -y
+sudo apt-get update -y
 sudo apt-get -y install ca-certificates curl gnupg lsb-release
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
