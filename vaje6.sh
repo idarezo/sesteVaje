@@ -1,4 +1,5 @@
 #!/bin/bash
+
 mkdir /home/ida123/desktop
 mkdir /home/ida123/downloads
 mkdir /home/ida123/pictures
